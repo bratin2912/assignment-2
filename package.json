@@ -1,0 +1,27 @@
+{
+  "name": "assignment-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bratin2912/assignment-2.git"
+  },
+  "author": "Bratin Dey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bratin2912/assignment-2/issues"
+  },
+  "homepage": "https://github.com/bratin2912/assignment-2#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3"
+  }
+}
